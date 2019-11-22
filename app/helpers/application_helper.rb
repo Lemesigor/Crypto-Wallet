@@ -6,4 +6,8 @@ module ApplicationHelper
     def show_app_name
         "Crypto Wallet"
     end
+
+    def rails_enviroment
+        Rails.env
+    end
 end

@@ -5,3 +5,11 @@
 <li>
     <%= link_to "Cadastro de Moedas", coins_path %>
 </li>
+
+<% if !@nome.nil? %>
+<p>Olá, <%= @nome %>. Aproveite a aplicação.
+</p>
+<%end %>
+<p>
+    In a <strong> <%= rails_enviroment %> </strong> enviroment now :)
+</p>
